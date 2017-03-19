@@ -1,0 +1,80 @@
+Ambiente de Desarrollo
+
+--Front end 
+
+	WINDOWS:
+
+		1. Nodejs v6.x 
+		Descargar el setup .exe y instalar
+
+		2. AngularJS
+
+		Descargar la v1.6x mendiante la consola de node --> npm install angular@1.6.3 
+
+		3. Crear carpeta de proyecto en localhost
+
+		Crea Nueva Carpeta en localhost con el nombre de "Agrauco"
+
+		CONTENIDO DE LA CARPETA APP 
+
+		4.Crear carpeta app y assets
+
+		----MVVW-----
+
+		/app
+		--- /js
+			--- /controllers
+			--- /services
+			--- /directives
+			--- /factories
+		--- main.js
+		--- /tpl
+		--- /views
+
+		mkdir assets --> Carpeta con /plugins, /img, /css, /etc.
+
+		/app
+		--- /plugins			
+		--- /img
+		--- /css
+
+	LINUX:
+
+		1. NodeJS v6.x
+
+		sudo apt.get update
+		curl-sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+		sudo apt-get install nodejs
+		sudo apt-get install build-essential
+
+		2. AngularJS
+
+		En consola de linux ejectar --> npm install angular@1.6.3 
+
+		3. Crear carpeta de proyecto en localhost
+
+		ejecutar en consola en el localhost --> mkdir Agrauco
+
+		4.Crear carpeta app y assets
+
+		mkdir app  --> Carpeta con todo el Core 
+
+		CONTENIDO DE LA CARPETA APP 
+
+		/app
+		--- /js
+			--- /controllers
+			--- /services
+			--- /directives
+			--- /factories
+		--- main.js
+		--- /tpl
+		--- /views
+
+		mkdir assets --> Carpeta con /plugins, /img, /css, /etc.
+
+		/app
+		--- /plugins			
+		--- /img
+		--- /css
+		
